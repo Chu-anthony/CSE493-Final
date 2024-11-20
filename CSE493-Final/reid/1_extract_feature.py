@@ -21,9 +21,9 @@ data_list = {
 }
 sample_rate = 1 # because we want to test on all frames
 
-det_path = '/media/cycyang/sda1/EE443_final/runs/detect/inference/txt'
-exp_path = '/media/cycyang/sda1/EE443_final/runs/reid/inference'
-reid_model_ckpt = '/media/cycyang/sda1/EE443_final/reid/osnet_x1_0_imagenet.pth'
+det_path = '/content/runs/detect/inference/txt'
+exp_path = '/content/runs/reid/inference'
+reid_model_ckpt = '/content/CSE493-Final/CSE493-Final/reid/osnet_x1_0_imagenet.pth'
 
 val_transforms = T.Compose([
     T.Resize([256, 128]),
