@@ -8,7 +8,7 @@ from IoU_Tracker import tracker
 from Processing import postprocess
 
 
-raw_data_root = '/media/cycyang/sda1/EE443_final/data'
+raw_data_root = '/content/drive/MyDrive/Final/EE-443-husky-team-spr24-master/data'
 
 W, H = 1920, 1080
 data_list = {
