@@ -9,8 +9,8 @@ import cv2
 
 import numpy as np
 
-results = "/media/cycyang/sda1/EE443_final/runs/tracking/inference/camera_0008.txt"
-image_path = "/media/cycyang/sda1/EE443_final/data/test/camera_0008"
+results = "/content/runs/tracking/inference/camera_0008.txt"
+image_path = "/content/drive/MyDrive/Final/EE-443-husky-team-spr24-master/data/test/camera_0008"
 
 # load the tracking results
 tracking_results = np.loadtxt(results, delimiter=',', dtype=None)
