@@ -20,8 +20,8 @@ vis_flag = True # set to True to save the visualizations
 exp_path = '/content/CSE493-Final/CSE493-Final/runs/tracking/inference'
 if not os.path.exists(exp_path):
     os.makedirs(exp_path)
-det_path = '/media/cycyang/sda1/EE443_final/runs/detect/inference/txt'
-emb_path = '/media/cycyang/sda1/EE443_final/runs/reid/inference'
+det_path = '/content/CSE493-Final/CSE493-Final/runs/detect/inference/txt'
+emb_path = '/content/CSE493-Final/CSE493-Final/runs/reid/inference'
 
 
 for split in ['test']:
