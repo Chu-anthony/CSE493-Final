@@ -9,7 +9,7 @@ import cv2
 
 import numpy as np
 
-results = "/content/runs/tracking/inference/camera_0008.txt"
+results = "/content/CSE493-Final/CSE493-Final/runs/tracking/inference/camera_0008.txt"
 image_path = "/content/drive/MyDrive/Final/EE-443-husky-team-spr24-master/data/test/camera_0008"
 
 # load the tracking results
@@ -27,7 +27,7 @@ for frame_id, tracking_result in zip(frame_ids, tracking_results):
     img_path = osp.join(image_path, frame_id + '.jpg')
     print(f"Visualizing frame {frame_id} from {img_path}")
 
-    new_img_path = osp.join("/media/cycyang/sda1/EE443_final/runs/tracking/inference/vis", frame_id + '.jpg')
+    new_img_path = osp.join("/content/CSE493-Final/CSE493-Final/runs/tracking/inference/vis", frame_id + '.jpg')
 
 
     img = cv2.imread(img_path)
