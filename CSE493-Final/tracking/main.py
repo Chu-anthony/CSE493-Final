@@ -12,12 +12,12 @@ raw_data_root = '/content/drive/MyDrive/Final/EE-443-husky-team-spr24-master/dat
 
 W, H = 1920, 1080
 data_list = {
-    'test': ['camera_0008', 'camera_0019', 'camera_0028']
+    'test': ['camera_0028']
 }
 sample_rate = 1 # because we want to test on all frames
 vis_flag = True # set to True to save the visualizations
 
-exp_path = '/content/runs/tracking/inference'
+exp_path = '/content/CSE493-Final/CSE493-Final/runs/tracking/inference'
 if not os.path.exists(exp_path):
     os.makedirs(exp_path)
 det_path = '/content/runs/detect/inference/txt'
