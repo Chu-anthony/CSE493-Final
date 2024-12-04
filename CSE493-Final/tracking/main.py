@@ -12,7 +12,7 @@ raw_data_root = '/content/drive/MyDrive/Final/EE-443-husky-team-spr24-master/dat
 
 W, H = 1920, 1080
 data_list = {
-    'test': ['camera_0028']
+    'val': ['camera_0025']
 }
 sample_rate = 1 # because we want to test on all frames
 vis_flag = True # set to True to save the visualizations
@@ -24,7 +24,7 @@ det_path = '/content/runs/detect/inference/txt'
 emb_path = '/content/runs/reid/inference'
 
 
-for split in ['test']:
+for split in ['val']:
     for folder in data_list[split]:
         det_txt_path = os.path.join(det_path, f'{folder}.txt')
         emb_npy_path = os.path.join(emb_path, f'{folder}.npy')
