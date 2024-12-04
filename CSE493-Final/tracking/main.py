@@ -17,7 +17,7 @@ data_list = {
 sample_rate = 1 # because we want to test on all frames
 vis_flag = True # set to True to save the visualizations
 
-exp_path = '/media/cycyang/sda1/EE443_final/runs/tracking/inference'
+exp_path = '/content/CSE493-Final/CSE493-Final/runs/tracking/inference'
 if not os.path.exists(exp_path):
     os.makedirs(exp_path)
 det_path = '/media/cycyang/sda1/EE443_final/runs/detect/inference/txt'
